@@ -5,3 +5,4 @@ Ohjelmointikurssin 2020 tehtävät
 ## 3. Toistot
 ## 4. Merkkijonot
 ## 5. Listat
+## 6. Taulukot
