@@ -34,7 +34,7 @@ public class ListanLukujenKeskiarvo {
 		}
 		lukija.close();
 		System.out.println();
-		int summa = 0;
+		double summa = 0;
 		for (int i : lista) {
 			summa += i;
 		}
