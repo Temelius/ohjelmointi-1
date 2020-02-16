@@ -1,9 +1,21 @@
 package Taulukot;
 
+import java.util.Scanner;
+
 public class MerkkijononPalat {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner lukija = new Scanner(System.in);
+		
+		System.out.print("Kirjoita lause: ");
+		String lause = lukija.nextLine();
+		String[] pilkottu = lause.split(" ");
+		
+		for (String i : pilkottu) {
+			System.out.println(i);
+		}
+		
+		lukija.close();
 
 	}
 
