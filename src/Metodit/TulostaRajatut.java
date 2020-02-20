@@ -33,5 +33,11 @@ public class TulostaRajatut {
 
     public static void tulostaRajatutLuvut(ArrayList<Integer> luvut, int alaraja, int ylaraja) {
         // TODO: toteuta metodin sisältö
+    	for (int i = 0; i < luvut.size(); i++) {
+    		int luku = luvut.get(i);
+    		if (luku >= alaraja && ylaraja >= luku) {
+    			System.out.println(luku);
+    		}
+    	}
     }
 }
