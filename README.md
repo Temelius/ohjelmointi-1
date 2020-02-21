@@ -7,3 +7,5 @@ Ohjelmointikurssin 2020 tehtävät
 ## 5. Listat
 ## 6. Taulukot
 ## 7. Metodit
+## 8. Listat ja Metodit
+## 9. Päivämäärät
