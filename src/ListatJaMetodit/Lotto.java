@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Lotto {
 
 	public static void main(String[] args) {
-		Leikkaus leikkaus = new Leikkaus();
 		Scanner lukija = new Scanner(System.in);
 		List<Integer> oikeat = new ArrayList<>();
 		List<Integer> tarkistettavat = new ArrayList<>();
@@ -27,7 +26,14 @@ public class Lotto {
 		
 		List<Integer> palautus = Leikkaus.laskeLeikkaus(oikeat, tarkistettavat);
 		
-		System.out.println(palautus.size() + " oikein ja lisänumero.");
+		if (tarkistettavat.contains(oikeat.get(oikeat.size() - 1))) {
+			System.out.println((palautus.size() - 1) + " oikein ja lisänumero.");
+		} else {
+			System.out.println(palautus.size() + " oikein.");
+		}
+		
+
+		
 		
 		lukija.close();
 	}
