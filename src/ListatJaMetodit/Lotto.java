@@ -31,16 +31,7 @@ public class Lotto {
 		} else {
 			System.out.println(palautus.size() + " oikein.");
 		}
-		
 
-		
-		
 		lukija.close();
 	}
-	
-	/*public static List<Integer> splitteri(String merkkijono) {
-		List<Integer> lista = new ArrayList<>();
-		return null;
-	} */
-
 }
