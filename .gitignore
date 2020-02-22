@@ -1,3 +1,6 @@
+# Ignore package Omat for now.
+src/Omat/
+
 # Compiled class file
 *.class
 
