@@ -1,5 +1,6 @@
-# Ignore package Omat for now.
+# Ignore package Omat and WriteReadmeGit for now.
 src/Omat/
+src/WriteReadmeGit/
 
 # Compiled class file
 *.class
